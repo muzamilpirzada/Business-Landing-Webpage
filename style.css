@@ -1,0 +1,119 @@
+.container{
+    background-color: #fff;
+    height: 120vh;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    
+}
+
+.container nav{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 98%;
+    margin: auto;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px 1px black;
+    margin-top: 20px;
+}
+
+
+
+
+nav .subnavbar,ul{
+    display: flex;
+    align-items: center;
+}
+nav .subnavbar>ul{
+    margin-left: 30px;
+}
+.subnavbar>img{
+    width: 200px;
+    margin-left: 100px;
+
+}
+
+.subnavbar ul li{
+    list-style: none;
+    margin-right: 40px;
+    font-size:20px ;
+    font-weight: bold;
+    color: rgb(239, 19, 55);
+}
+
+nav>button{
+    width: 120px;
+    padding: 13px 30px;
+    background-color: rgb(239, 19, 55);
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-right: 40px;
+    border: none;
+}
+
+.main-heading{
+    display: flex;
+    align-items:flex-start;
+    justify-content:space-evenly;
+    margin-top: 40px;
+}
+
+.main-heading>img{
+    width: 90px;
+}
+
+.main-heading>h1{
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+}
+
+.main-heading h1>span{
+    color:rgb(239, 19, 55) ;
+}
+
+/* second section */
+.second-section{
+    display: flex;
+    height: 60vh;
+    background-color: blue;
+    position: relative;
+    width: 100%;
+}
+
+
+.second-section .content{
+    display: flex;
+    flex-direction: column;
+}
+
+.second-section .content-images{
+    display: flex;
+
+}
+
+.content-images .main-logo{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    right: 30%;
+    border: 5px solid #fff;
+    border-radius: 300px;
+    outline: none;
+    z-index: 2;
+}
+
+.content-images .dotted-shape{
+    position: absolute;
+    width: 100px;
+    top: 54%;
+    left: 90%;
+    
+}
+
