@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Fira+Sans:ital,wght@1,100&family=Montserrat:wght@800&family=Poppins:wght@200&display=swap');
+
 .container{
     background-color: #fff;
     height: 120vh;
@@ -39,15 +41,16 @@ nav .subnavbar>ul{
 .subnavbar ul li{
     list-style: none;
     margin-right: 40px;
-    font-size:20px ;
-    font-weight: bold;
+    font-size:15px ;
+    font-weight: none;
+    font-family: 'Montserrat', sans-serif;
     color: rgb(239, 19, 55);
 }
 
 nav>button{
     width: 120px;
     padding: 13px 30px;
-    background-color: rgb(239, 19, 55);
+    background-color: #FF074C;
     color: #fff;
     font-size: 15px;
     letter-spacing: 1px;
@@ -69,19 +72,20 @@ nav>button{
 
 .main-heading>h1{
     font-size: 70px;
-    font-weight: bold;
+    font-weight:bolder;
     letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
     
 }
 
 .main-heading h1>span{
-    color:rgb(239, 19, 55) ;
+    color:#FF074C;
 }
 
 /* second section */
 .second-section{
     display: flex;
-    height: 60vh;
+    height: 70vh;
     background-color: blue;
     position: relative;
     width: 100%;
@@ -117,3 +121,18 @@ nav>button{
     
 }
 
+.content-images .half-circle{
+    position: absolute;
+    z-index: 99;
+    top: 20%;
+    left: 93%;
+    width: 40px;
+    height: 80px;
+}
+
+.content-images .social-contact{
+    position: absolute;
+    z-index: 99;
+}
+
+.social-contact
