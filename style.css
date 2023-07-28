@@ -86,7 +86,6 @@ nav>button{
 .second-section{
     display: flex;
     height: 70vh;
-    background-color: blue;
     position: relative;
     width: 100%;
 }
