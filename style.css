@@ -10,7 +10,7 @@
 }
 
 .container nav{
-    background-color: aliceblue;
+    background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -18,7 +18,7 @@
     width: 98%;
     margin: auto;
     box-sizing: border-box;
-    box-shadow: 0 0 5px 1px black;
+    box-shadow: 0 0 5px 4px rgb(224, 219, 219);
     margin-top: 20px;
 }
 
@@ -132,6 +132,128 @@ nav>button{
 .content-images .social-contact{
     position: absolute;
     z-index: 99;
+    align-items: start;
+    top: 70%;
+    left: 75%;
 }
 
-.social-contact
+.social-contact #more-info{
+    color: #fff;
+    font-size: 20px;  
+}
+.social-icons{
+    display: flex;
+    align-items: center;
+    height: 20px;
+}
+.social-contact .social-icons>img{
+width:30px ;
+height: 30px;
+margin: 0 0 0 8px;
+}
+
+.social-icons>p{
+    color: #fff;
+    letter-spacing: 0.8px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 8px;
+}
+
+
+/* phone number container square */
+.content-images .Phone-number{
+position: absolute;
+top: 10%;
+left: 63%;
+height: 100px;
+border: none;
+border-radius: 30px;
+text-align: center;
+align-items: center;
+width: 215px;
+z-index: 5;
+background-color: #fff;
+display: flex;
+justify-content: center;
+text-align: start;
+align-items:center;
+line-height: 25px;
+box-shadow: 0 0 6px grey;
+}
+.Phone-number>p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.address{
+position: absolute;
+height: 90px;
+width: 240px;
+top: 62%;
+right: 46%;
+border: none;
+border-radius: 30px;
+text-align: center;
+align-items: center;
+z-index: 8;
+background-color: #fff;
+display: flex;
+justify-content: center;
+text-align: start;
+align-items:start;
+line-height: 25px;
+box-shadow: 0 0 6px grey;
+}
+.address>p{
+    font-size: 20px;
+    font-weight: bold;    
+}
+
+
+/* Left section  */
+.second-section .content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:60%;
+    padding-right: 100px;
+}
+.content>img{
+    width: 70px;
+}
+
+.content .button-container>button{
+    padding: 13px 20px;
+    color: white;
+    background: black;
+    border: none;
+    outline: none;
+    margin: 30px 0 0 0;
+
+}
+
+.content .button-container #active{
+    background-color:#FF074C ;
+    margin-right: 20px;
+}
+.content #star{
+    position: absolute;
+    bottom: 80%;
+    left: 68%;
+    width: 60px;
+}
+.content #leaf{
+    position: absolute;
+    top: 80%;
+    right: 89%;
+    width: 65px;
+}
+
+.content>p{
+    line-height: 28px;
+    font-size: 17px;
+}
+
