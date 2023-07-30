@@ -117,9 +117,17 @@ nav>button{
     width: 100px;
     top: 54%;
     left: 90%;
+    z-index: 99;
     
 }
-
+.content-images .red-sq{
+    position: absolute;
+    z-index: 1;
+    width: 570px;
+    height: 450px;
+    right: 0.2%;
+    top:2%;
+}
 .content-images .half-circle{
     position: absolute;
     z-index: 99;
@@ -255,5 +263,55 @@ box-shadow: 0 0 6px grey;
 .content>p{
     line-height: 28px;
     font-size: 17px;
+}
+
+
+
+/* Media query */
+@media(max-width:1149px){
+    .main-heading>img{
+        width: 70px;
+    }
+    .main-heading>h1{
+        font-size: 45px;
+    }
+
+    /* second-section right side */
+    .second-section .content-images{
+        width: 40%;
+    }
+    .second-section .content-images .main-logo{
+        width: 300  px;
+        height: 300px;
+    }
+
+}
+
+@media(max-width:922px){
+    .container>nav{
+        width: 90%;
+    }
+
+    .subnavbar>img{
+        margin-left: 15px;
+    }
+
+}
+
+@media(max-width:788px){
+    .main-heading>img{
+        width: 55px;
+    }
+    .main-heading>h1{
+        font-size: 27px;
+    }
+}
+@media(max-width:583px){
+    .main-heading>img{
+        width: 40px;
+    }
+    .main-heading>h1{
+        font-size: 18px;
+    }
 }
 
